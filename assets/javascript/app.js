@@ -161,7 +161,7 @@ function writeSubmitButton() {
     $("#formSubmit").append("<button id='submitQuiz' class='btn btn-primary btn-lg'>Submit</button>");
 }
 
-//Taken directely from the class exercises
+//Countdown counter
 function decrement() {
     counter--;
     $("#timeRemaining").html("<h2><mark>" + counter + " seconds remaining.</mark></h2>");
@@ -192,7 +192,7 @@ function showResults() {
             wrongAnswers++;
         }
     }
-    // Expreimenting with assigning an HTML id to a variable 
+    // Assigning an HTML id to a variable 
     var qR = $("#quizResults");
     $(qR).append("<p>ALL DONE!</p>");
     $(qR).append("<p>Correct Answers: " + correctAnswers + "</p>");
